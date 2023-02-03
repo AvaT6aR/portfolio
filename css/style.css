@@ -39,7 +39,7 @@ body {
     visibility: visible;
     opacity: 1;
 }
-.lodeing {
+.loading {
     position: fixed;
     top: 0;
     left: 0;
@@ -52,7 +52,7 @@ body {
     align-items: center;
     transition: all .3s ease-in-out;
 }
-.lodeing.hide {
+.loading.hide {
     opacity: 0;
     visibility: hidden;
 }
