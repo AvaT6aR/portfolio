@@ -157,10 +157,6 @@ $('.projects .owl-carousel').owlCarousel({
         }
     }
 })
-window.addEventListener('load' , () => {
-    let lodeing = document.querySelector('.lodeing')
-    lodeing.classList.add('hide')
-})
 let icon1 = document.querySelector('#icon-1')
 icon1.addEventListener('click' , () => {
     $('#ul-1').slideToggle(500)
